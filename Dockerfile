@@ -6,7 +6,3 @@ RUN gem install 'colorize'
 COPY ./app /app
 
 WORKDIR "/app"
-
-# RUN ruby index.rb
-
-# ENTRYPOINT ["ruby index.rb"]

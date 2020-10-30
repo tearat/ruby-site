@@ -9,3 +9,5 @@ services:
     command: ruby index.rb
     ports:
         - "8000:8000"
+    volumes:
+        - ./app:/app
